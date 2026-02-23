@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "astmoss",
+  "version": "1.0.0",
+  "name": "ASTMoss",
+  "description": "Client-side moss automation mod.",
+  "authors": [
+    "Tamago0314"
+  ],
+  "license": "MIT",
+  "icon": "assets/astmoss/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.tamago0314.astmoss.client.AstmossClient"
+    ]
+  },
+  "mixins": [
+    "astmoss.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.19.4"
+  }
+}
